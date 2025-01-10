@@ -1,0 +1,11 @@
+{
+    "name": "deck",
+    "workspaces": [
+        "desktop",
+        "mobile"
+    ],
+    "scripts": {
+        "dev:mobile": "npm run tauri android dev --workspace=mobile",
+        "dev:desktop": "npm run tauri dev --workspace=desktop"
+    }
+}
